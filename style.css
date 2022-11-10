@@ -1,0 +1,99 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+.weather-card{
+    background-color: black;
+    color: white;
+    width: 100%;
+    max-width: 900px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    border-radius: 30px;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    background-color: rgb(38, 33, 33);
+    opacity: 0.9;
+    color: white;
+    margin: 2px 5px;
+}
+
+.forcast{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forcast-container{
+    background-color: #B9C0DA;
+    width: 20%;
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+.search-bar-button{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+#recent-search-btn{
+    border-radius: 10px;
+    color: white;
+    background-color: #DB2955;
+    padding:5px 15px;
+    margin: 5px 15px;
+}
+
+.uv{
+    display: flex;
+    align-items: center;
+}
+
+.city-name img{
+    width: 50px;
+    height: 50px;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: red;
+}
+
+.purple{
+    background-color: purple;
+}

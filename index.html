@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather-card">
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+
+        <div class = search-container>
+            <input type="text" class="search-bar" placeholder="Search for a City">
+            <button class="search-bar-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="search-history"> </div>
+
+        <div class="weather">
+            <h2 class='city-name'>Please enter a city</h2>
+            <div class="temperature">Temperature:</div>
+            <br>
+            <div class="wind">Wind:</div>   
+            <br>
+            <div class="humidity">Humidity:</div>
+            <br>   
+            <div class="uv">UV Index: 
+                <span class="uvi-value">
+                    <p></p>
+                </span>
+            </div>          
+            <br> 
+            <h3>5 Day Forcast:</h3>
+        </div>
+
+        <div class="forcast">
+            <div class="forcast-container">
+                <h4 class="forcast-container-date"></h4>
+                <img src="" alt="">
+                <p class=forcast-container-temp>Temp:</p>
+                <p class=forcast-container-wind>Wind:</p>
+                <p class=forcast-container-humidity>Humidity:</p>
+            </div>
+            <div class="forcast-container">
+                <h4 class="forcast-container-date"></h4>
+                <img src="" alt="">
+                <p class=forcast-container-temp>Temp:</p>
+                <p class=forcast-container-wind>Wind:</p>
+                <p class=forcast-container-humidity>Humidity:</p>
+            </div>
+            <div class="forcast-container">
+                <h4 class="forcast-container-date"></h4>
+                <img src="" alt="">
+                <p class=forcast-container-temp>Temp:</p>
+                <p class=forcast-container-wind>Wind:</p>
+                <p class=forcast-container-humidity>Humidity:</p>
+            </div>
+            <div class="forcast-container">
+                <h4 class="forcast-container-date"></h4>
+                <img src="" alt="">
+                <p class=forcast-container-temp>Temp:</p>
+                <p class=forcast-container-wind>Wind:</p>
+                <p class=forcast-container-humidity>Humidity:</p>
+            </div>
+            <div class="forcast-container">
+                <h4 class="forcast-container-date"></h4>
+                <img src="" alt="">
+                <p class=forcast-container-temp>Temp:</p>
+                <p class=forcast-container-wind>Wind:</p>
+                <p class=forcast-container-humidity>Humidity:</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
